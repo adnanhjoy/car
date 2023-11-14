@@ -4,16 +4,10 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonialCard from '@/components/card/TestimonialCard';
+import { settings } from '@/utilitis/carousel.config';
 
 const Testimonials = () => {
-    const settings = {
-        speed: 500,
-        autoplay: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        prevArrow: <></>,
-        nextArrow: <></>,
-    };
+ 
     return (
         <div className='container mx-auto my-8'>
             <div className='text-center'>
