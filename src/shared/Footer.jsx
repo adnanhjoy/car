@@ -64,7 +64,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='py-5 border-t border-t-white flex items-center justify-between'>
-                    <p className='text-white text-center text-sm'>©2023 Education . All rights reserved | Education</p>
+                    <p className='text-white text-center text-sm'>©2023 Auto Vehicles . All rights reserved | Auto Vehicles</p>
                     <p className='text-white text-sm'>Developed By: <a target='_blank' href="https://www.bengalsoftware.com/" className='hover:text-info'>Bengal Software</a></p>
                 </div>
             </div>
