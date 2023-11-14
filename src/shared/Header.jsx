@@ -11,7 +11,7 @@ const Header = () => {
                         <h1>vehicles</h1>
                     </span>
 
-                    <nav>
+                    <nav className='hidden md:block'>
                         <ul className='flex items-center gap-4 uppercase text-white'>
                             <li><Link href=''>Home</Link></li>
                             <li><Link href=''>About</Link></li>

@@ -27,7 +27,7 @@ const HeroSlider = () => {
     return (
         <div className='container mx-auto'>
             <div className='flex items-center gap-x-4'>
-                <div className='w-1/5'>
+                <div className='w-1/5 hidden md:block'>
                     {
                         imageChange?.map(image =>
                             <Image
@@ -38,7 +38,7 @@ const HeroSlider = () => {
                                 className='w-full h-[6.375rem] mb-2' />)
                     }
                 </div>
-                <div className='w-4/5'>
+                <div className='w-full md:w-4/5'>
                     <Slider {...settings}>
                         {
                             imageChange?.map(image =>
@@ -47,7 +47,7 @@ const HeroSlider = () => {
                                     height={1000}
                                     width={1000}
                                     src={image}
-                                    className='w-full h-[27rem] mb-2' />)
+                                    className='w-full h-[12rem] md:h-[27rem] mb-2' />)
                         }
                     </Slider>
                 </div>
