@@ -11,7 +11,7 @@ const Testimonials = () => {
     return (
         <div className='container mx-auto my-8'>
             <div className='text-center'>
-                <p className='text-info font-bold'>Testimonial</p>
+                <p className='text-info font-bold tracking-widest uppercase'>Testimonial</p>
                 <h1 className='text-2xl font-semibold text-secondary my-3'>What Customer Says</h1>
                 <p className='text-dark'>The majority have suffered alteration in some form, by injected humour, or randomised <br /> words which don't look even slightly believable. </p>
             </div>
