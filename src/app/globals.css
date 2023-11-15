@@ -13,3 +13,11 @@ body {
     background-repeat: no-repeat;
     height: fit-content;
 }
+
+.contact-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../../public//assets/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
