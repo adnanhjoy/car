@@ -2,8 +2,8 @@ import React from 'react';
 
 const ContactForm = () => {
     return (
-        <div>
-            <h1 className='text text-info uppercase font-semibold mb-8 text-3xl'>Get in Touch</h1>
+        <div className='mt-10 md:mt-0'>
+            <h1 className='text text-info uppercase font-semibold mb-8 text-3xl text-center md:text-start'>Get in Touch</h1>
             <form>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-2'>
                     <div>

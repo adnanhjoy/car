@@ -1,4 +1,5 @@
 import ContactForm from '@/components/contact/ContactForm';
+import ContactSideComponent from '@/components/contact/ContactSideComponent';
 import React from 'react';
 
 const Contact = () => {
@@ -11,11 +12,11 @@ const Contact = () => {
             </div>
 
             <div className='container mx-auto my-14'>
-                <div className='mx-4 md:mx-0 flex items-start gap-10 bg-white p-8 rounded-md'>
-                    <div className='w-2/5'>
-
+                <div className='mx-4 md:mx-0 md:flex items-start gap-10 bg-white p-4 md:p-8 rounded-md'>
+                    <div className='md:w-2/5'>
+                        <ContactSideComponent />
                     </div>
-                    <div className='w-3/5'>
+                    <div className='md:w-3/5'>
                         <ContactForm />
                     </div>
                 </div>
