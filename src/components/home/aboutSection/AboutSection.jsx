@@ -8,8 +8,8 @@ const AboutSection = () => {
         <div className='container mx-auto my-20'>
             <div className="md:flex mx-4">
                 <div className='w-full md:w-1/2 relative'>
-                    <Image height={1920} width={1080} src={img} className="rounded-lg shadow-2xl w-3/4" />
-                    <Image height={1920} width={1080} src={img2} className=" absolute w-3/5 right-5 top-1/2 border-8 rounded-lg shadow-2xl" />
+                    <Image height={1080} width={1920} src={img} className="rounded-lg shadow-2xl w-3/4" />
+                    <Image height={1080} width={1920} src={img2} className=" absolute w-3/5 right-5 top-1/2 border-8 rounded-lg shadow-2xl" />
                 </div>
                 <div className='w-full md:w-1/2 mt-16 md:mt-0'>
                     <p className='text-info font-bold'>About Us</p>

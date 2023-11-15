@@ -20,7 +20,7 @@ const HeroSlider = () => {
         fade: true,
         infinite: true,
         speed: 4000,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 8000,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
