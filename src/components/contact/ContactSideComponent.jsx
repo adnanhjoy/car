@@ -32,7 +32,7 @@ const ContactSideComponent = () => {
                     <FaLocationDot className='text-white text-xl mt-1' />
                     <span>
                         <p className='text-info'>Address</p>
-                        <p className='text-white'>example@gmail.com</p>
+                        <p className='text-white'>Adept KR Complex (2nd floor)</p>
                     </span>
                 </div>
 
