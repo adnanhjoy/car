@@ -4,10 +4,10 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonialCard from '@/components/card/TestimonialCard';
-import { settings } from '@/utilitis/carousel.config';
+import { testimonialSettings } from '@/utilitis/carousel.config';
 
 const Testimonials = () => {
- 
+
     return (
         <div className='container mx-auto my-8'>
             <div className='text-center'>
@@ -17,7 +17,7 @@ const Testimonials = () => {
             </div>
 
             <div className='mt-8'>
-                <Slider {...settings}>
+                <Slider {...testimonialSettings}>
                     <TestimonialCard />
                     <TestimonialCard />
                     <TestimonialCard />

@@ -10,7 +10,7 @@ const CarCard = () => {
     return (
         <div className='mx-2 bg-white rounded-md my-4 border border-gray-300 hover:ring-1 hover:ring-info' style={{ boxShadow: '0 0 10px #f9f9f9' }}>
             <div>
-                <Image height={200} width={200} src={img} className='w-full h-48 md:h-32' />
+                <Image height={200} width={200} src={img} className='w-full h-48' />
             </div>
             <div className='p-2'>
                 <h3 className='text-dark text-sm font-medium'>Toyota</h3>

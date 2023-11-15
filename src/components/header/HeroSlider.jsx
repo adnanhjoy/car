@@ -19,10 +19,12 @@ const HeroSlider = () => {
     const settings = {
         fade: true,
         infinite: true,
-        speed: 5000,
+        speed: 4000,
         autoplay: true,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        prevArrow: <></>,
+        nextArrow: <></>,
     };
     return (
         <div className='container mx-auto'>
@@ -44,8 +46,8 @@ const HeroSlider = () => {
                             imageChange?.map(image =>
                                 <Image
                                     key={image}
-                                    height={1000}
-                                    width={1000}
+                                    height={1080}
+                                    width={1920}
                                     src={image}
                                     className='w-full h-[12rem] md:h-[27rem] mb-2' />)
                         }
