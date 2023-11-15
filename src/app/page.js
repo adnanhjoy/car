@@ -5,16 +5,18 @@ import LatestVehicles from '@/components/home/latestVehicles/LatestVehicles'
 import PopularBrands from '@/components/home/popularBrands/PopularBrands'
 import Services from '@/components/home/services/Services'
 import Testimonials from '@/components/home/testimonials/Testimonials'
+import SearchSection from '@/shared/SearchSection'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <>
       <HeroSlider />
+      <SearchSection />
       <AboutSection />
-      <Services/>
+      <Services />
       <FeaturedCars />
-      <LatestVehicles/>
+      <LatestVehicles />
       <PopularBrands />
       <Testimonials />
     </>
