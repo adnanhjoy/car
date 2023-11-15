@@ -4,9 +4,9 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from 'next/image';
-import car1 from '../../../public/assets/car1.jpg'
-import car2 from '../../../public/assets/car2.jpg'
-import car3 from '../../../public/assets/car3.jpg'
+import car1 from '../../../public/assets/car1.png'
+import car2 from '../../../public/assets/car2.png'
+import car3 from '../../../public/assets/car3.png'
 import car4 from '../../../public/assets/car4.jpg'
 
 
@@ -20,6 +20,7 @@ const HeroSlider = () => {
         fade: true,
         infinite: true,
         speed: 4000,
+        autoplaySpeed: 5000,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -37,7 +38,8 @@ const HeroSlider = () => {
                                 height={1000}
                                 width={1000}
                                 src={image}
-                                className='w-full h-[6.375rem] mb-2' />)
+                                className='w-full h-[6.375rem] mb-2' 
+                                style={{backgroundColor:'linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%)'}}/>)
                     }
                 </div>
                 <div className='w-full md:w-4/5'>
